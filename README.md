@@ -9,3 +9,7 @@ Basic Commands For Minecraft Spigot.
 - /Feed <player> | Fills Specified Player's Hunger Bar
 
 <h3>Permissions</h3>
+
+- /Smite | smite.command.permsission
+- /Heal | heal.command.permission
+- /Feed | feed.command.permission
