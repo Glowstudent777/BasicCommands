@@ -1,0 +1,32 @@
+name: BasicCommands
+main: glow.tut.Main
+version: 1.0.0
+description: BasicCommands
+commands:
+  heal:
+    description: Heals Player To Max Health.
+    usage: /<command>
+    aliases: [healing, healme, h]
+    permission: heal.command
+    permission-message: You do not have permission!
+
+  feed:
+    description: Sets Player To Max Hunger
+    usage: /<command>
+    aliases: [food, feedme]
+    permission: feed.command
+    permission-message: You do not have permission!
+
+  smite:
+    description: Summons Lightning To Target Player
+    usage: /<command>
+    aliases: [lightning, zeus]
+    permission: smite.command
+    permission-message: You do not have permission!
+
+  vanish:
+    description: Makes PLayer Invisible
+    usage: /<command>
+    aliases: v
+    permission: vanish.command
+    permission-message: You do not have permission!
