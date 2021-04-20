@@ -15,3 +15,7 @@ Basic Commands For Minecraft Spigot.
 - /Heal | heal.command
 - /Feed | feed.command
 - /Vanish | vanish.command
+
+
+<h3>Join My Discord</h3>
+https://discord.gg/4wM63P7ZUd
