@@ -2,6 +2,8 @@
 
 Basic Commands For Minecraft Spigot.
 
+Tested on Minecraft v1.16.5
+
 <h3>Current Commands</h3>
 
 - /Smite <player> | Summons Lightning On Specified Player
