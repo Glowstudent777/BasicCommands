@@ -25,7 +25,7 @@ commands:
     permission-message: You do not have permission!
 
   vanish:
-    description: Makes PLayer Invisible
+    description: Makes Player Invisible
     usage: /<command>
     aliases: v
     permission: vanish.command

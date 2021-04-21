@@ -57,7 +57,7 @@ public class Main extends JavaPlugin {
 
         );
 
-        getLogger().info( "Special Thanks To Our Plugin Supporters!\n DivineHyena");
+        getLogger().info( "Special Thanks To Our Plugin Supporters!");
 
     }
 
