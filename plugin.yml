@@ -30,3 +30,7 @@ commands:
     aliases: v
     permission: vanish.command
     permission-message: You do not have permission!
+
+  supporters:
+    description: List Of Plugin Supporters
+    usage: /<command>

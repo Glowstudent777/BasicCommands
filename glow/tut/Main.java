@@ -1,12 +1,10 @@
 package glow.tut;
 
 import com.sun.deploy.util.JVMParameters;
-import glow.tut.commands.Feed;
-import glow.tut.commands.Heal;
-import glow.tut.commands.Smite;
-import glow.tut.commands.Vanish;
+import glow.tut.commands.*;
 import glow.tut.events.Events;
 import glow.tut.events.VanishEvent;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -34,6 +32,9 @@ public class Main extends JavaPlugin {
         Heal heal = new Heal();
         getCommand("heal").setExecutor(heal);
 
+        Supporters supporters = new Supporters();
+        getCommand("supporters").setExecutor(supporters);
+
 
 
         getLogger().info("\n" +
@@ -55,6 +56,9 @@ public class Main extends JavaPlugin {
                 "                                                "
 
         );
+
+        getLogger().info( "Special Thanks To Our Plugin Supporters!\n DivineHyena");
+
     }
 
     @Override
