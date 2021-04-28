@@ -11,6 +11,7 @@ Tested on Minecraft v1.16.5
 - /Feed <player> | Fills Specified Player's Hunger Bar
 - /Vanish | Makes Player Invisible To Other Players
 - /Supporters | Lists Plugin Supporters
+- /Fly | Toggles Fly Mode For Player
 
 <h3>Permissions</h3>
 
@@ -18,6 +19,7 @@ Tested on Minecraft v1.16.5
 - /Heal | heal.command
 - /Feed | feed.command
 - /Vanish | vanish.command
+- /Fly | fly.command
 
 <h3>Events</h3>
 
