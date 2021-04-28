@@ -10,6 +10,7 @@ Tested on Minecraft v1.16.5
 - /Heal <player> | Heals Specified Player To Full Health
 - /Feed <player> | Fills Specified Player's Hunger Bar
 - /Vanish | Makes Player Invisible To Other Players
+- /Supporters | Lists Plugin Supporters
 
 <h3>Permissions</h3>
 
