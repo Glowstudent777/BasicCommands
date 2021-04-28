@@ -2,6 +2,7 @@ package glow.tut.commands;
 
 import glow.tut.Main;
 import org.bukkit.Bukkit;
+import org.bukkit.GameMode;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -34,6 +35,7 @@ public class Vanish implements CommandExecutor {
                     people.hidePlayer(plugin, player);
                 }
                 plugin.invis_list.add(player);
+                player.setGameMode(GameMode.CREATIVE);
                 player.sendMessage("§e§l(!) You Have Vanished");
             }
         }
