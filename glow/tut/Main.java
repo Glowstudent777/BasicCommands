@@ -1,10 +1,8 @@
 package glow.tut;
 
-import com.sun.deploy.util.JVMParameters;
 import glow.tut.commands.*;
 import glow.tut.events.Events;
 import glow.tut.events.VanishEvent;
-import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -14,6 +12,7 @@ public class Main extends JavaPlugin {
 
 
     public ArrayList<Player> invis_list = new ArrayList<>();
+    public ArrayList<Player> fly_list = new ArrayList<>();
 
     @Override
     public void onEnable() {
@@ -22,6 +21,7 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new VanishEvent(this), this);
 
         getCommand("vanish").setExecutor(new Vanish(this));
+        getCommand("fly").setExecutor(new Fly(this));
 
         Feed feed = new Feed();
         getCommand("feed").setExecutor(feed);
